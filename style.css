@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap');
+
+body{
+    background-color: black;
+    margin: 0px;
+     font-family: "Sedan", serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+.main-card{
+    width: 280px;;
+    background-color:rgb(64 60 60 / 24%);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    
+}
+
+.london-text{
+    font-size: 12px;
+    color:  #fdfdfde0;
+}
+.skills{
+    font-size: 12px;
+    color: rgb(211, 208, 208);
+    padding: 15px 0px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttons{
+    padding: 8px 30px;
+    color: white;
+    background-color: #3133359c;
+    border-radius: 7px;
+    border: none;
+    width: 90%;
+    line-height: 25px;
+    cursor: pointer;
+}
+a:hover{
+    background-color: #313335;
+     border-radius: 7px;
+    border: none;
+    text-decoration: dashed;
+}
+@media screen and (max-width: 1024px){
+    .container{
+        padding: 80px 0px;
+    }
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 768) {
+   
+}
+@media screen and (max-width: 375px){
+   .main-card{
+    padding: 20px;
+    width: 230px;
+   }
+   .container{
+    padding: 90px 0px;
+   }
+   .buttons{
+    width: 85%;
+    line-height: 30px;
+    padding: 6px 25px;
+   }
+   body{
+    overflow-y: scroll;
+   }
+}
+@media screen and (max-width: 576px){
+.container{
+    padding: 90px 0px;
+}
+.main-card{
+    width: 250px;
+}
+.buttons{
+    padding: 5px 22px;
+    line-height: 30px;
+}
+}
